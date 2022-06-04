@@ -1,10 +1,12 @@
 body{
     margin: 0;
+    background-image: linear-gradient(90deg,rgba(218,1,58,1) 21%, rgba(223,38,44,1) 41%, rgb(221, 66, 66) 79%);
+    height: 100vh;
+    padding-bottom: 50px;
 }
 
 header{
-    display: flex;
-    justify-content: center;
+
     text-align: center;
     padding-top: 30px;
 }
@@ -17,10 +19,6 @@ h1{
     font-family: 'Playfair Display', serif;
 }
 
-.main-container{
-    height: 100vh;
-    background-image: linear-gradient(90deg,rgba(218,1,58,1) 21%, rgba(223,38,44,1) 41%, rgb(221, 66, 66) 79%);
-}
 
 h2{
     text-align: center;
@@ -30,12 +28,22 @@ h2{
     font-family: 'Joan', serif;
     background-color: white;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto;
     border-radius: 10px;
     padding: 5px;
 }
 
 .link{
     background-color: rgb(174, 184, 184);
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 35px;
+    }
 }
